@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom"; 
+import { Link, useNavigate } from "react-router-dom";
 import SearchComponent from "../userSideBar/search";
 
 const Head = () => {
@@ -18,14 +18,14 @@ const Head = () => {
     { img: "/src/assets/menu-svgrepo-com.svg", name: "Menu", link: "/menu" },
   ]);
 
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   return (
     <div className="w-full h-fit py-[20px] flex flex-row justify-center px-[10px] items-center">
       <div className="content w-full max-w-[1440px] flex flex-row justify-between items-center">
         <Link to="/">
           <img
-            src="/src/assets/Screenshot_2025-01-06_210416-removebg-preview (1).png"
+            src="https://res-console.cloudinary.com/dlfvuaspc/media_explorer_thumbnails/d42333a27eedbac0f1527537560b0dc2/detailed"
             alt="Logo"
             className="w-auto h-[35px]"
           />
