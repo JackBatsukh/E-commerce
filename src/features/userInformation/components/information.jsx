@@ -4,6 +4,7 @@ import PhoneNumber from "./phoneNumber";
 import Email from "./email";
 import Password from "./password";
 import SaveButton from "./saveButton";
+import { Link } from "react-router";
 
 const Information = () => {
   return (
@@ -19,6 +20,11 @@ const Information = () => {
         <Email />
         <Password />
         <SaveButton />
+      </div>
+      <div className="">
+        <Link to="/dashboard">
+          <h1 className="font-bold text-2xl">Go to Dashboard</h1>
+        </Link>
       </div>
     </div>
   );

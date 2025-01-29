@@ -22,6 +22,7 @@ const UserInformation = () => {
             </div>
             <div className="w-3/4 flex justify-center items-center pt-[10px]">
               <Information />
+              
             </div>
           </div>
         </div>
