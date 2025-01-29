@@ -1,6 +1,6 @@
 import React from "react";
 import ProducrtAddCard from "../componets/addProduct/producrtAddCard";
-import ProductCard from "../../home/components/ProductCard";
+import ProductCard from "../../home/components/productCard";
 import Layout from "../componets/layout";
 import { useProducts } from "../../../ProductProvider";
 
